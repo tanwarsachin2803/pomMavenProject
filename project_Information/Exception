@@ -1,0 +1,12 @@
+Here is the information regarding the exception
+
+NoSuchElementException- not availability of the element in the pafe
+NoSuchWindowException- switching to the invalid window - drive.switch().window("window_name")
+NoSuchFrameException- when frame is not compatible driver.switchTo().frame(“frame_11”);
+NoAlertPresentException- no presence of alert , driver.switch.alert.accept
+InvalidSelectorException-
+ElementNotVisibleException-
+ElementNotSelectableException-
+TimeoutException-
+NoSuchSessionException-
+StaleElementReferenceException-

@@ -1,0 +1,13 @@
+Here it contains all the essential things required for automation framework
+Pro's of this framework
+1. Easy to handle
+2. Portability
+3. used of jenkins
+3. Used of Logger files
+4. Use of Appium to automate mobile app testing too
+5. Use of data provider
+6. Use of groups ( to group the test )
+7. Use of try catch
+8. Exception
+9. Use of assertion
+10. Reading of config files

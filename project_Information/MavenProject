@@ -1,0 +1,10 @@
+Maven
+
+Maven is a popular open source build tool.
+The tool helps to build and document the lifecycle framework.
+A comprehensive, maintainable, reusable, and simple model for projects.
+A set of tools and plug-ins that can interact with the declarative model.
+
+The Need for Maven
+Maven is chiefly used for Java-based projects, helping to download dependencies, which refers to the libraries or JAR files. The tool helps get the right JAR files for each project as there may be different versions of separate packages.
+After Maven, downloading dependencies doesn’t require visiting the official websites of different software.

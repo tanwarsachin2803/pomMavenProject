@@ -1,0 +1,17 @@
+Alert
+
+It is a small box with information and required action
+
+Simple alert/Confirmation alert
+contains a small information along with the action like ok or cancel
+
+prompt alert
+required inpout from the user
+
+How to handle the alert
+
+driver.switchTo.alert.dismiss= cancel
+driver.switchTo.alert.accept= ok
+driver.swithcTo.alert.getText()= to capture the alert message
+or use alert class
+Alert alert=driver.switchTo.alert

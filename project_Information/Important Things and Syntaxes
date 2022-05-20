@@ -1,0 +1,11 @@
+Locators
+used to find the element
+
+1. id
+2. xpath = absolute, relative
+3. cssSelector
+4. name
+5. linkText, partialLinkText
+
+dynamic xpath
+//tagName[starts-with(@locator,'submit_'] or //tagName[contains(@attributeName,''attributeValue)]

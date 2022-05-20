@@ -1,0 +1,38 @@
+Waits
+
+Waits are used to wait for sometime before throwing an exception or error
+
+Explicit wait
+Implicit wait
+Fluent wait
+
+Implicit Wait
+It tells to wait for a certain measure of time before throwing an exception.
+So, webdriver will wait for that much time
+driver.manage.timeouts.implicitlywait(10,Timeuint.sec)
+implicit wait run after every statement present in the test
+
+Explicit Wait
+this wait is used for a single statement along with the excepted condition
+alertIsPresent()
+elementSelectionStateToBe()
+elementToBeClickable()
+elementToBeSelected()
+frameToBeAvaliableAndSwitchToIt()
+invisibilityOfTheElementLocated()
+invisibilityOfElementWithText()
+presenceOfAllElementsLocatedBy()
+presenceOfElementLocated()
+textToBePresentInElement()
+textToBePresentInElementLocated()
+textToBePresentInElementValue()
+titleIs()
+titleContains()
+visibilityOf()
+visibilityOfAllElements()
+visibilityOfAllElementsLocatedBy()
+visibilityOfElementLocated()
+For this we have to define the wait first
+WebDriverWait wait=new WebDriverWait(driver, timeInSec)
+wait.until(ExpectedConditions.expectedConditionAbove(WebElement)
+your_action;
